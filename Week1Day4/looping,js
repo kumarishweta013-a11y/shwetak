@@ -1,0 +1,18 @@
+//looping statement - to repeat the logic 
+
+//for loop-used for known count
+/* intialization->condition-> iteration
+for (let index =0 ;index < Array.length;
+ index++) */
+
+ // While loop- when not sure on the count, untill condition satisfies
+/* while (condition){
+
+}*/
+
+/*do while - execute atleast once 
+
+do{
+}while (condition);
+*/
+
