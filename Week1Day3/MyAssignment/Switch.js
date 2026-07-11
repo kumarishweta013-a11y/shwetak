@@ -1,40 +1,17 @@
-//Assignment Details:  
-//Create and call two JavaScript functions: `launchBrowser` with `if-else` for browser launch messages, and 
-//runTests` with `switch` for test type messages. 
+//differenc between switch and ifelse
 
-function launchBrowser(){
-    let browserName='Chrome'
-    if (browserName == 'Chrome'){
-        console.log("Chrome browser is launched");
-    }
-    else{
-        console.log("Chrome browser is not launchec");
-        
-    }
-}
-
-launchBrowser();
-
-
-function runTests(){
-
-    let testType = "Smoke"
-    switch (testType){
-        case 'Smoke':
-        console.log("smoke test cases are executed");
+let Day="Wednesday"
+switch (Day) {
+    case "Monday":
+        console.log("Today is monday");
         break;
-        case 'Regression':
-            console.log("Regression test cases are executed");
-            break;
-        case 'Sanity':
-            console.log("Sanit test cases are executed");
-            break;
-        default:
-            console.log("No test cases are executed");
-            break;
-            
+    case "Tuesday":
+        console.log("Today is Tuesday");
+        break;
+    case "Wednesday":
+        console.log("Today is Wednesday");
+        break;
         
-    }
+    default:
+        break;
 }
-
-runTests();
