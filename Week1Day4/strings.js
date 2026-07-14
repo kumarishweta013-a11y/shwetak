@@ -11,5 +11,6 @@ and non-primitive data type will get stored in heap memory
 //let name='Testleaf'
 
 //string objects---non primitive data type when object is created and 
+1
 
 //let companyName= new String("CG")

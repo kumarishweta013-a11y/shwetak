@@ -5,7 +5,7 @@ function square(){
     let sq ;
     for (n =10 ; n >=1 ;n--){
         sq = n*n
-        console.log("Square of a number" + n +"is" , sq)
+        console.log("Square of a number" + n + "is" , sq)
     }
 
 }
