@@ -42,5 +42,5 @@ function compareString(str1, str2){
 }
 
 console.log(compareString("listen", "silent"))
-
+console.log(compareString("Hello", "world"))
 
