@@ -1,5 +1,9 @@
 
-/*Answer1*/
+/*Example:1 
+1. Split the string into an array of words. 
+2. Find the last word in the array. 
+3. Calculate the length of this word. */
+
 let str ="Hello world"
 console.log(str)
 let str1= str.split(" ")
@@ -14,6 +18,29 @@ console.log(str1[1])
 5. Return the length*/
 
 let tstr =" I work as Qa analyst"
-let tsrt1 = tstr.split(" ")
-console.log(tsrt1[5])
-laststr = tsrt1.length[5]
+let tstrn = tstr.trim().split(" ").pop()
+console.log(tstrn)
+let len = tstrn.length 
+console.log(len)
+
+/*Example:3 
+1. Remove spaces and convert all letters to the same case 
+2. Sort the Characters 
+3. Compare Sorted Strings 
+4. Return the Result */
+
+
+function compareString(str1, str2){
+    str1=str1.replace(/\s/g," ").toLowerCase()
+    str2=str2.replace(/\s/g," ").toLowerCase()
+
+    let sortedStr1=str1.split("").sort().join()
+    let sortedStr2=str2.split("").sort().join()
+
+    return sortedStr1 === sortedStr2
+
+}
+
+console.log(compareString("listen", "silent"))
+
+
