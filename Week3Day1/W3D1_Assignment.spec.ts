@@ -40,5 +40,8 @@ test("Selector", async ({page}) =>{
         console.log(await sourceDropdown.nth(i).innerText())
 
     }
+    await page.waitForTimeout(2000)
+    await page.locator('#createLeadForm_primaryPhoneNumber').fill('9811111110')
+    await page.locator('[name="submitButton"]').click()
 
 })
