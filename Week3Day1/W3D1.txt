@@ -1,0 +1,18 @@
+orange color-attribute
+pink color- attribute value
+black- visible text/label tags
+
+
+<p> tags siblings 
+
+CSS selector (cascading style sheet is much faster than Xpath)
+
+
+By id = #idvalue
+By class = .classvalue
+Bytag = tagname[id="id value"]
+
+Descendant combinator-----second child = parent childname 
+child combinator -----first child = angular bracket > , parent >first child
+immediate sibling---- label +input
+Descendant sibling--- label ~ input 
