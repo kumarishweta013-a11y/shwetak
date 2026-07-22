@@ -14,8 +14,6 @@ test("Selector", async ({page}) =>{
     await page.locator('#username').fill('democsr2') 
     await page.locator('#password').fill('crmsfa')
     await page.locator('input[type="submit"]').click()
-
-      await page.waitForTimeout(3000)
      console.log(await page.title())
      console.log(page.url())
     await page.locator('#button').click()
@@ -43,5 +41,7 @@ test("Selector", async ({page}) =>{
     await page.waitForTimeout(2000)
     await page.locator('#createLeadForm_primaryPhoneNumber').fill('9811111110')
     await page.locator('[name="submitButton"]').click()
+    await page.waitForTimeout(2000)
+    await page.locator('a[href*="logout"]').click()
 
 })
